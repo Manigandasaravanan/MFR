@@ -833,94 +833,6 @@
         "children": [
           {
             "kind": "Var",
-            "name": "apiKey",
-            "printedName": "apiKey",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12MFRFramework13MFRControllerC6apiKeySSvp",
-            "mangledName": "$s12MFRFramework13MFRControllerC6apiKeySSvp",
-            "moduleName": "MFRFramework",
-            "declAttributes": [
-              "HasInitialValue",
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12MFRFramework13MFRControllerC6apiKeySSvg",
-                "mangledName": "$s12MFRFramework13MFRControllerC6apiKeySSvg",
-                "moduleName": "MFRFramework",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12MFRFramework13MFRControllerC6apiKeySSvs",
-                "mangledName": "$s12MFRFramework13MFRControllerC6apiKeySSvs",
-                "moduleName": "MFRFramework",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12MFRFramework13MFRControllerC6apiKeySSvM",
-                "mangledName": "$s12MFRFramework13MFRControllerC6apiKeySSvM",
-                "moduleName": "MFRFramework",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "onLivenessDetection",
             "printedName": "onLivenessDetection",
             "children": [
@@ -1182,8 +1094,8 @@
           },
           {
             "kind": "Function",
-            "name": "viewDidLoad",
-            "printedName": "viewDidLoad()",
+            "name": "loadView",
+            "printedName": "loadView()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1192,11 +1104,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@MFRFramework@objc(cs)MFRController(im)viewDidLoad",
-            "mangledName": "$s12MFRFramework13MFRControllerC11viewDidLoadyyF",
+            "usr": "c:@M@MFRFramework@objc(cs)MFRController(im)loadView",
+            "mangledName": "$s12MFRFramework13MFRControllerC8loadViewyyF",
             "moduleName": "MFRFramework",
             "overriding": true,
-            "objc_name": "viewDidLoad",
+            "objc_name": "loadView",
             "declAttributes": [
               "Dynamic",
               "ObjC",
@@ -1365,48 +1277,6 @@
               "Override"
             ],
             "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(coder:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "MFRFramework.MFRController?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MFRController",
-                    "printedName": "MFRFramework.MFRController",
-                    "usr": "c:@M@MFRFramework@objc(cs)MFRController"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NSCoder",
-                "printedName": "Foundation.NSCoder",
-                "usr": "c:objc(cs)NSCoder"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@MFRFramework@objc(cs)MFRController(im)initWithCoder:",
-            "mangledName": "$s12MFRFramework13MFRControllerC5coderACSgSo7NSCoderC_tcfc",
-            "moduleName": "MFRFramework",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "initWithCoder:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "Required"
-            ],
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
@@ -1420,7 +1290,7 @@
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)UIViewController",
-        "inheritsConvenienceInitializers": true,
+        "hasMissingDesignatedInitializers": true,
         "superclassNames": [
           "UIKit.UIViewController",
           "UIKit.UIResponder",
@@ -1513,56 +1383,56 @@
     {
       "filePath": "\/Users\/mani\/Desktop\/ManiApps\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
       "kind": "StringLiteral",
-      "offset": 645,
+      "offset": 646,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mani\/Desktop\/ManiApps\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
       "kind": "BooleanLiteral",
-      "offset": 687,
+      "offset": 688,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mani\/Desktop\/ManiApps\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
       "kind": "FloatLiteral",
-      "offset": 805,
+      "offset": 806,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mani\/Desktop\/ManiApps\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
       "kind": "FloatLiteral",
-      "offset": 852,
+      "offset": 853,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mani\/Desktop\/ManiApps\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1320,
+      "offset": 1321,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mani\/Desktop\/ManiApps\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1355,
+      "offset": 1356,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mani\/Desktop\/ManiApps\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1398,
+      "offset": 1399,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mani\/Desktop\/ManiApps\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1486,
+      "offset": 1487,
       "length": 1,
       "value": "0"
     }
