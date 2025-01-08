@@ -839,12 +839,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((MFRFramework.LivenessDetectionResult) -> ())?",
+                "printedName": "((MFRFramework.LivenessDetectionResult, Swift.String?) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(MFRFramework.LivenessDetectionResult) -> ()",
+                    "printedName": "(MFRFramework.LivenessDetectionResult, Swift.String?) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -853,9 +853,30 @@
                       },
                       {
                         "kind": "TypeNominal",
-                        "name": "LivenessDetectionResult",
-                        "printedName": "MFRFramework.LivenessDetectionResult",
-                        "usr": "s:12MFRFramework23LivenessDetectionResultO"
+                        "name": "Tuple",
+                        "printedName": "(MFRFramework.LivenessDetectionResult, Swift.String?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LivenessDetectionResult",
+                            "printedName": "MFRFramework.LivenessDetectionResult",
+                            "usr": "s:12MFRFramework23LivenessDetectionResultO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
                       }
                     ]
                   }
@@ -864,8 +885,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:12MFRFramework13MFRControllerC19onLivenessDetectionyAA0dE6ResultOcSgvp",
-            "mangledName": "$s12MFRFramework13MFRControllerC19onLivenessDetectionyAA0dE6ResultOcSgvp",
+            "usr": "s:12MFRFramework13MFRControllerC19onLivenessDetectionyAA0dE6ResultO_SSSgtcSgvp",
+            "mangledName": "$s12MFRFramework13MFRControllerC19onLivenessDetectionyAA0dE6ResultO_SSSgtcSgvp",
             "moduleName": "MFRFramework",
             "declAttributes": [
               "HasInitialValue",
@@ -885,12 +906,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "((MFRFramework.LivenessDetectionResult) -> ())?",
+                    "printedName": "((MFRFramework.LivenessDetectionResult, Swift.String?) -> ())?",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "(MFRFramework.LivenessDetectionResult) -> ()",
+                        "printedName": "(MFRFramework.LivenessDetectionResult, Swift.String?) -> ()",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -899,9 +920,30 @@
                           },
                           {
                             "kind": "TypeNominal",
-                            "name": "LivenessDetectionResult",
-                            "printedName": "MFRFramework.LivenessDetectionResult",
-                            "usr": "s:12MFRFramework23LivenessDetectionResultO"
+                            "name": "Tuple",
+                            "printedName": "(MFRFramework.LivenessDetectionResult, Swift.String?)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "LivenessDetectionResult",
+                                "printedName": "MFRFramework.LivenessDetectionResult",
+                                "usr": "s:12MFRFramework23LivenessDetectionResultO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Swift.String?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "String",
+                                    "printedName": "Swift.String",
+                                    "usr": "s:SS"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
                           }
                         ]
                       }
@@ -910,8 +952,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12MFRFramework13MFRControllerC19onLivenessDetectionyAA0dE6ResultOcSgvg",
-                "mangledName": "$s12MFRFramework13MFRControllerC19onLivenessDetectionyAA0dE6ResultOcSgvg",
+                "usr": "s:12MFRFramework13MFRControllerC19onLivenessDetectionyAA0dE6ResultO_SSSgtcSgvg",
+                "mangledName": "$s12MFRFramework13MFRControllerC19onLivenessDetectionyAA0dE6ResultO_SSSgtcSgvg",
                 "moduleName": "MFRFramework",
                 "implicit": true,
                 "accessorKind": "get"
@@ -929,12 +971,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "((MFRFramework.LivenessDetectionResult) -> ())?",
+                    "printedName": "((MFRFramework.LivenessDetectionResult, Swift.String?) -> ())?",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "(MFRFramework.LivenessDetectionResult) -> ()",
+                        "printedName": "(MFRFramework.LivenessDetectionResult, Swift.String?) -> ()",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -943,9 +985,30 @@
                           },
                           {
                             "kind": "TypeNominal",
-                            "name": "LivenessDetectionResult",
-                            "printedName": "MFRFramework.LivenessDetectionResult",
-                            "usr": "s:12MFRFramework23LivenessDetectionResultO"
+                            "name": "Tuple",
+                            "printedName": "(MFRFramework.LivenessDetectionResult, Swift.String?)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "LivenessDetectionResult",
+                                "printedName": "MFRFramework.LivenessDetectionResult",
+                                "usr": "s:12MFRFramework23LivenessDetectionResultO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Swift.String?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "String",
+                                    "printedName": "Swift.String",
+                                    "usr": "s:SS"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
                           }
                         ]
                       }
@@ -954,8 +1017,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12MFRFramework13MFRControllerC19onLivenessDetectionyAA0dE6ResultOcSgvs",
-                "mangledName": "$s12MFRFramework13MFRControllerC19onLivenessDetectionyAA0dE6ResultOcSgvs",
+                "usr": "s:12MFRFramework13MFRControllerC19onLivenessDetectionyAA0dE6ResultO_SSSgtcSgvs",
+                "mangledName": "$s12MFRFramework13MFRControllerC19onLivenessDetectionyAA0dE6ResultO_SSSgtcSgvs",
                 "moduleName": "MFRFramework",
                 "implicit": true,
                 "accessorKind": "set"
@@ -972,8 +1035,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12MFRFramework13MFRControllerC19onLivenessDetectionyAA0dE6ResultOcSgvM",
-                "mangledName": "$s12MFRFramework13MFRControllerC19onLivenessDetectionyAA0dE6ResultOcSgvM",
+                "usr": "s:12MFRFramework13MFRControllerC19onLivenessDetectionyAA0dE6ResultO_SSSgtcSgvM",
+                "mangledName": "$s12MFRFramework13MFRControllerC19onLivenessDetectionyAA0dE6ResultO_SSSgtcSgvM",
                 "moduleName": "MFRFramework",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1626,14 +1689,14 @@
     {
       "filePath": "\/Users\/mani\/Desktop\/ManiApps\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1963,
+      "offset": 1997,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mani\/Desktop\/ManiApps\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
       "kind": "BooleanLiteral",
-      "offset": 20377,
+      "offset": 21615,
       "length": 4,
       "value": "true"
     }
