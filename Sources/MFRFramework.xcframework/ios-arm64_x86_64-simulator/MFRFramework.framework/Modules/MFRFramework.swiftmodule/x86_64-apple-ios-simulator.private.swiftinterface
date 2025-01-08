@@ -39,6 +39,7 @@ public enum LivenessDetectionResult {
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class MFRController : UIKit.UIViewController, AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate {
   @_Concurrency.MainActor @preconcurrency public var onLivenessDetection: ((MFRFramework.LivenessDetectionResult) -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency public var onCancel: (() -> Swift.Void)?
   @_Concurrency.MainActor @preconcurrency public var excludedExpressions: [MFRFramework.ExpressionType]
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency public func configureAPIKey(apiKey: Swift.String)

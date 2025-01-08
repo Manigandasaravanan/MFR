@@ -982,6 +982,151 @@
           },
           {
             "kind": "Var",
+            "name": "onCancel",
+            "printedName": "onCancel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MFRFramework13MFRControllerC8onCancelyycSgvp",
+            "mangledName": "$s12MFRFramework13MFRControllerC8onCancelyycSgvp",
+            "moduleName": "MFRFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MFRFramework13MFRControllerC8onCancelyycSgvg",
+                "mangledName": "$s12MFRFramework13MFRControllerC8onCancelyycSgvg",
+                "moduleName": "MFRFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(() -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "() -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MFRFramework13MFRControllerC8onCancelyycSgvs",
+                "mangledName": "$s12MFRFramework13MFRControllerC8onCancelyycSgvs",
+                "moduleName": "MFRFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MFRFramework13MFRControllerC8onCancelyycSgvM",
+                "mangledName": "$s12MFRFramework13MFRControllerC8onCancelyycSgvM",
+                "moduleName": "MFRFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "excludedExpressions",
             "printedName": "excludedExpressions",
             "children": [
@@ -1453,28 +1598,28 @@
     {
       "filePath": "\/Users\/mani\/Desktop\/ManiApps\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1321,
+      "offset": 1360,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mani\/Desktop\/ManiApps\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1356,
+      "offset": 1395,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mani\/Desktop\/ManiApps\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1399,
+      "offset": 1438,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mani\/Desktop\/ManiApps\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1487,
+      "offset": 1526,
       "length": 1,
       "value": "0"
     }
