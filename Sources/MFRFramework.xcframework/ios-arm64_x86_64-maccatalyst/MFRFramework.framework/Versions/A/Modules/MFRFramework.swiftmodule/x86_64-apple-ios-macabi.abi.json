@@ -1622,6 +1622,13 @@
       "offset": 1526,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mani\/Desktop\/ManiApps\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1963,
+      "length": 1,
+      "value": "0"
     }
   ]
 }
