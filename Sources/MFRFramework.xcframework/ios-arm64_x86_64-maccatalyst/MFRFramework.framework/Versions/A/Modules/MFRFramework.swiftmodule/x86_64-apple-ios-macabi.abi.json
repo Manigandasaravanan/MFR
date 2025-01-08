@@ -1093,6 +1093,36 @@
             ]
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(apiKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MFRController",
+                "printedName": "MFRFramework.MFRController",
+                "usr": "c:@M@MFRFramework@objc(cs)MFRController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12MFRFramework13MFRControllerC6apiKeyACSS_tcfc",
+            "mangledName": "$s12MFRFramework13MFRControllerC6apiKeyACSS_tcfc",
+            "moduleName": "MFRFramework",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "loadView",
             "printedName": "loadView()",
@@ -1115,34 +1145,6 @@
               "Preconcurrency",
               "Custom",
               "Override",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "configureAPIKey",
-            "printedName": "configureAPIKey(apiKey:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12MFRFramework13MFRControllerC15configureAPIKey6apiKeyySS_tF",
-            "mangledName": "$s12MFRFramework13MFRControllerC15configureAPIKey6apiKeyySS_tF",
-            "moduleName": "MFRFramework",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
