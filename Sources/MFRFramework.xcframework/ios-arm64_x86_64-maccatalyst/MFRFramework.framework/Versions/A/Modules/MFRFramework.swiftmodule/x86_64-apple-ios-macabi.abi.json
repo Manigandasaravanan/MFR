@@ -1,0 +1,1570 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "MFRFramework",
+    "printedName": "MFRFramework",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "MFRFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Vision",
+        "printedName": "Vision",
+        "declKind": "Import",
+        "moduleName": "MFRFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MFRFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ExpressionType",
+        "printedName": "ExpressionType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "smile",
+            "printedName": "smile",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MFRFramework.ExpressionType.Type) -> MFRFramework.ExpressionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExpressionType",
+                    "printedName": "MFRFramework.ExpressionType",
+                    "usr": "s:12MFRFramework14ExpressionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MFRFramework.ExpressionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExpressionType",
+                        "printedName": "MFRFramework.ExpressionType",
+                        "usr": "s:12MFRFramework14ExpressionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12MFRFramework14ExpressionTypeO5smileyA2CmF",
+            "mangledName": "$s12MFRFramework14ExpressionTypeO5smileyA2CmF",
+            "moduleName": "MFRFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "blink",
+            "printedName": "blink",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MFRFramework.ExpressionType.Type) -> MFRFramework.ExpressionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExpressionType",
+                    "printedName": "MFRFramework.ExpressionType",
+                    "usr": "s:12MFRFramework14ExpressionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MFRFramework.ExpressionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExpressionType",
+                        "printedName": "MFRFramework.ExpressionType",
+                        "usr": "s:12MFRFramework14ExpressionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12MFRFramework14ExpressionTypeO5blinkyA2CmF",
+            "mangledName": "$s12MFRFramework14ExpressionTypeO5blinkyA2CmF",
+            "moduleName": "MFRFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "zoomIn",
+            "printedName": "zoomIn",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MFRFramework.ExpressionType.Type) -> MFRFramework.ExpressionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExpressionType",
+                    "printedName": "MFRFramework.ExpressionType",
+                    "usr": "s:12MFRFramework14ExpressionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MFRFramework.ExpressionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExpressionType",
+                        "printedName": "MFRFramework.ExpressionType",
+                        "usr": "s:12MFRFramework14ExpressionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12MFRFramework14ExpressionTypeO6zoomInyA2CmF",
+            "mangledName": "$s12MFRFramework14ExpressionTypeO6zoomInyA2CmF",
+            "moduleName": "MFRFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "zoomOut",
+            "printedName": "zoomOut",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MFRFramework.ExpressionType.Type) -> MFRFramework.ExpressionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExpressionType",
+                    "printedName": "MFRFramework.ExpressionType",
+                    "usr": "s:12MFRFramework14ExpressionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MFRFramework.ExpressionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExpressionType",
+                        "printedName": "MFRFramework.ExpressionType",
+                        "usr": "s:12MFRFramework14ExpressionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12MFRFramework14ExpressionTypeO7zoomOutyA2CmF",
+            "mangledName": "$s12MFRFramework14ExpressionTypeO7zoomOutyA2CmF",
+            "moduleName": "MFRFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "leftTurn",
+            "printedName": "leftTurn",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MFRFramework.ExpressionType.Type) -> MFRFramework.ExpressionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExpressionType",
+                    "printedName": "MFRFramework.ExpressionType",
+                    "usr": "s:12MFRFramework14ExpressionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MFRFramework.ExpressionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExpressionType",
+                        "printedName": "MFRFramework.ExpressionType",
+                        "usr": "s:12MFRFramework14ExpressionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12MFRFramework14ExpressionTypeO8leftTurnyA2CmF",
+            "mangledName": "$s12MFRFramework14ExpressionTypeO8leftTurnyA2CmF",
+            "moduleName": "MFRFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "rightTurn",
+            "printedName": "rightTurn",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MFRFramework.ExpressionType.Type) -> MFRFramework.ExpressionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExpressionType",
+                    "printedName": "MFRFramework.ExpressionType",
+                    "usr": "s:12MFRFramework14ExpressionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MFRFramework.ExpressionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExpressionType",
+                        "printedName": "MFRFramework.ExpressionType",
+                        "usr": "s:12MFRFramework14ExpressionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12MFRFramework14ExpressionTypeO9rightTurnyA2CmF",
+            "mangledName": "$s12MFRFramework14ExpressionTypeO9rightTurnyA2CmF",
+            "moduleName": "MFRFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "upTurn",
+            "printedName": "upTurn",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MFRFramework.ExpressionType.Type) -> MFRFramework.ExpressionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExpressionType",
+                    "printedName": "MFRFramework.ExpressionType",
+                    "usr": "s:12MFRFramework14ExpressionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MFRFramework.ExpressionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExpressionType",
+                        "printedName": "MFRFramework.ExpressionType",
+                        "usr": "s:12MFRFramework14ExpressionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12MFRFramework14ExpressionTypeO6upTurnyA2CmF",
+            "mangledName": "$s12MFRFramework14ExpressionTypeO6upTurnyA2CmF",
+            "moduleName": "MFRFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "downTurn",
+            "printedName": "downTurn",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MFRFramework.ExpressionType.Type) -> MFRFramework.ExpressionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExpressionType",
+                    "printedName": "MFRFramework.ExpressionType",
+                    "usr": "s:12MFRFramework14ExpressionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MFRFramework.ExpressionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExpressionType",
+                        "printedName": "MFRFramework.ExpressionType",
+                        "usr": "s:12MFRFramework14ExpressionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12MFRFramework14ExpressionTypeO8downTurnyA2CmF",
+            "mangledName": "$s12MFRFramework14ExpressionTypeO8downTurnyA2CmF",
+            "moduleName": "MFRFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "none",
+            "printedName": "none",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MFRFramework.ExpressionType.Type) -> MFRFramework.ExpressionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExpressionType",
+                    "printedName": "MFRFramework.ExpressionType",
+                    "usr": "s:12MFRFramework14ExpressionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MFRFramework.ExpressionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExpressionType",
+                        "printedName": "MFRFramework.ExpressionType",
+                        "usr": "s:12MFRFramework14ExpressionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12MFRFramework14ExpressionTypeO4noneyA2CmF",
+            "mangledName": "$s12MFRFramework14ExpressionTypeO4noneyA2CmF",
+            "moduleName": "MFRFramework"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ExpressionType",
+                "printedName": "MFRFramework.ExpressionType",
+                "usr": "s:12MFRFramework14ExpressionTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ExpressionType",
+                "printedName": "MFRFramework.ExpressionType",
+                "usr": "s:12MFRFramework14ExpressionTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MFRFramework14ExpressionTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12MFRFramework14ExpressionTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "MFRFramework",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MFRFramework14ExpressionTypeO9hashValueSivp",
+            "mangledName": "$s12MFRFramework14ExpressionTypeO9hashValueSivp",
+            "moduleName": "MFRFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MFRFramework14ExpressionTypeO9hashValueSivg",
+                "mangledName": "$s12MFRFramework14ExpressionTypeO9hashValueSivg",
+                "moduleName": "MFRFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MFRFramework14ExpressionTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s12MFRFramework14ExpressionTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "MFRFramework",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12MFRFramework14ExpressionTypeO",
+        "mangledName": "$s12MFRFramework14ExpressionTypeO",
+        "moduleName": "MFRFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LivenessDetectionResult",
+        "printedName": "LivenessDetectionResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MFRFramework.LivenessDetectionResult.Type) -> MFRFramework.LivenessDetectionResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessDetectionResult",
+                    "printedName": "MFRFramework.LivenessDetectionResult",
+                    "usr": "s:12MFRFramework23LivenessDetectionResultO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MFRFramework.LivenessDetectionResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessDetectionResult",
+                        "printedName": "MFRFramework.LivenessDetectionResult",
+                        "usr": "s:12MFRFramework23LivenessDetectionResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12MFRFramework23LivenessDetectionResultO7successyA2CmF",
+            "mangledName": "$s12MFRFramework23LivenessDetectionResultO7successyA2CmF",
+            "moduleName": "MFRFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "failed",
+            "printedName": "failed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MFRFramework.LivenessDetectionResult.Type) -> MFRFramework.LivenessDetectionResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessDetectionResult",
+                    "printedName": "MFRFramework.LivenessDetectionResult",
+                    "usr": "s:12MFRFramework23LivenessDetectionResultO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MFRFramework.LivenessDetectionResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessDetectionResult",
+                        "printedName": "MFRFramework.LivenessDetectionResult",
+                        "usr": "s:12MFRFramework23LivenessDetectionResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12MFRFramework23LivenessDetectionResultO6failedyA2CmF",
+            "mangledName": "$s12MFRFramework23LivenessDetectionResultO6failedyA2CmF",
+            "moduleName": "MFRFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "spoofingDetected",
+            "printedName": "spoofingDetected",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MFRFramework.LivenessDetectionResult.Type) -> MFRFramework.LivenessDetectionResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessDetectionResult",
+                    "printedName": "MFRFramework.LivenessDetectionResult",
+                    "usr": "s:12MFRFramework23LivenessDetectionResultO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MFRFramework.LivenessDetectionResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessDetectionResult",
+                        "printedName": "MFRFramework.LivenessDetectionResult",
+                        "usr": "s:12MFRFramework23LivenessDetectionResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12MFRFramework23LivenessDetectionResultO16spoofingDetectedyA2CmF",
+            "mangledName": "$s12MFRFramework23LivenessDetectionResultO16spoofingDetectedyA2CmF",
+            "moduleName": "MFRFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "timeOut",
+            "printedName": "timeOut",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MFRFramework.LivenessDetectionResult.Type) -> MFRFramework.LivenessDetectionResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessDetectionResult",
+                    "printedName": "MFRFramework.LivenessDetectionResult",
+                    "usr": "s:12MFRFramework23LivenessDetectionResultO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MFRFramework.LivenessDetectionResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessDetectionResult",
+                        "printedName": "MFRFramework.LivenessDetectionResult",
+                        "usr": "s:12MFRFramework23LivenessDetectionResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12MFRFramework23LivenessDetectionResultO7timeOutyA2CmF",
+            "mangledName": "$s12MFRFramework23LivenessDetectionResultO7timeOutyA2CmF",
+            "moduleName": "MFRFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "none",
+            "printedName": "none",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MFRFramework.LivenessDetectionResult.Type) -> MFRFramework.LivenessDetectionResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessDetectionResult",
+                    "printedName": "MFRFramework.LivenessDetectionResult",
+                    "usr": "s:12MFRFramework23LivenessDetectionResultO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MFRFramework.LivenessDetectionResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessDetectionResult",
+                        "printedName": "MFRFramework.LivenessDetectionResult",
+                        "usr": "s:12MFRFramework23LivenessDetectionResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12MFRFramework23LivenessDetectionResultO4noneyA2CmF",
+            "mangledName": "$s12MFRFramework23LivenessDetectionResultO4noneyA2CmF",
+            "moduleName": "MFRFramework"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LivenessDetectionResult",
+                "printedName": "MFRFramework.LivenessDetectionResult",
+                "usr": "s:12MFRFramework23LivenessDetectionResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LivenessDetectionResult",
+                "printedName": "MFRFramework.LivenessDetectionResult",
+                "usr": "s:12MFRFramework23LivenessDetectionResultO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MFRFramework23LivenessDetectionResultO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12MFRFramework23LivenessDetectionResultO2eeoiySbAC_ACtFZ",
+            "moduleName": "MFRFramework",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MFRFramework23LivenessDetectionResultO9hashValueSivp",
+            "mangledName": "$s12MFRFramework23LivenessDetectionResultO9hashValueSivp",
+            "moduleName": "MFRFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MFRFramework23LivenessDetectionResultO9hashValueSivg",
+                "mangledName": "$s12MFRFramework23LivenessDetectionResultO9hashValueSivg",
+                "moduleName": "MFRFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MFRFramework23LivenessDetectionResultO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s12MFRFramework23LivenessDetectionResultO4hash4intoys6HasherVz_tF",
+            "moduleName": "MFRFramework",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12MFRFramework23LivenessDetectionResultO",
+        "mangledName": "$s12MFRFramework23LivenessDetectionResultO",
+        "moduleName": "MFRFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MFRController",
+        "printedName": "MFRController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "apiKey",
+            "printedName": "apiKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MFRFramework13MFRControllerC6apiKeySSvp",
+            "mangledName": "$s12MFRFramework13MFRControllerC6apiKeySSvp",
+            "moduleName": "MFRFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MFRFramework13MFRControllerC6apiKeySSvg",
+                "mangledName": "$s12MFRFramework13MFRControllerC6apiKeySSvg",
+                "moduleName": "MFRFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MFRFramework13MFRControllerC6apiKeySSvs",
+                "mangledName": "$s12MFRFramework13MFRControllerC6apiKeySSvs",
+                "moduleName": "MFRFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MFRFramework13MFRControllerC6apiKeySSvM",
+                "mangledName": "$s12MFRFramework13MFRControllerC6apiKeySSvM",
+                "moduleName": "MFRFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "onLivenessDetection",
+            "printedName": "onLivenessDetection",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((MFRFramework.LivenessDetectionResult) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MFRFramework.LivenessDetectionResult) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessDetectionResult",
+                        "printedName": "MFRFramework.LivenessDetectionResult",
+                        "usr": "s:12MFRFramework23LivenessDetectionResultO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MFRFramework13MFRControllerC19onLivenessDetectionyAA0dE6ResultOcSgvp",
+            "mangledName": "$s12MFRFramework13MFRControllerC19onLivenessDetectionyAA0dE6ResultOcSgvp",
+            "moduleName": "MFRFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((MFRFramework.LivenessDetectionResult) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(MFRFramework.LivenessDetectionResult) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LivenessDetectionResult",
+                            "printedName": "MFRFramework.LivenessDetectionResult",
+                            "usr": "s:12MFRFramework23LivenessDetectionResultO"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MFRFramework13MFRControllerC19onLivenessDetectionyAA0dE6ResultOcSgvg",
+                "mangledName": "$s12MFRFramework13MFRControllerC19onLivenessDetectionyAA0dE6ResultOcSgvg",
+                "moduleName": "MFRFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((MFRFramework.LivenessDetectionResult) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(MFRFramework.LivenessDetectionResult) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LivenessDetectionResult",
+                            "printedName": "MFRFramework.LivenessDetectionResult",
+                            "usr": "s:12MFRFramework23LivenessDetectionResultO"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MFRFramework13MFRControllerC19onLivenessDetectionyAA0dE6ResultOcSgvs",
+                "mangledName": "$s12MFRFramework13MFRControllerC19onLivenessDetectionyAA0dE6ResultOcSgvs",
+                "moduleName": "MFRFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MFRFramework13MFRControllerC19onLivenessDetectionyAA0dE6ResultOcSgvM",
+                "mangledName": "$s12MFRFramework13MFRControllerC19onLivenessDetectionyAA0dE6ResultOcSgvM",
+                "moduleName": "MFRFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "excludedExpressions",
+            "printedName": "excludedExpressions",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[MFRFramework.ExpressionType]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExpressionType",
+                    "printedName": "MFRFramework.ExpressionType",
+                    "usr": "s:12MFRFramework14ExpressionTypeO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MFRFramework13MFRControllerC19excludedExpressionsSayAA14ExpressionTypeOGvp",
+            "mangledName": "$s12MFRFramework13MFRControllerC19excludedExpressionsSayAA14ExpressionTypeOGvp",
+            "moduleName": "MFRFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[MFRFramework.ExpressionType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExpressionType",
+                        "printedName": "MFRFramework.ExpressionType",
+                        "usr": "s:12MFRFramework14ExpressionTypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MFRFramework13MFRControllerC19excludedExpressionsSayAA14ExpressionTypeOGvg",
+                "mangledName": "$s12MFRFramework13MFRControllerC19excludedExpressionsSayAA14ExpressionTypeOGvg",
+                "moduleName": "MFRFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[MFRFramework.ExpressionType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExpressionType",
+                        "printedName": "MFRFramework.ExpressionType",
+                        "usr": "s:12MFRFramework14ExpressionTypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MFRFramework13MFRControllerC19excludedExpressionsSayAA14ExpressionTypeOGvs",
+                "mangledName": "$s12MFRFramework13MFRControllerC19excludedExpressionsSayAA14ExpressionTypeOGvs",
+                "moduleName": "MFRFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MFRFramework13MFRControllerC19excludedExpressionsSayAA14ExpressionTypeOGvM",
+                "mangledName": "$s12MFRFramework13MFRControllerC19excludedExpressionsSayAA14ExpressionTypeOGvM",
+                "moduleName": "MFRFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MFRFramework@objc(cs)MFRController(im)viewDidLoad",
+            "mangledName": "$s12MFRFramework13MFRControllerC11viewDidLoadyyF",
+            "moduleName": "MFRFramework",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configureAPIKey",
+            "printedName": "configureAPIKey(apiKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MFRFramework13MFRControllerC15configureAPIKey6apiKeyySS_tF",
+            "mangledName": "$s12MFRFramework13MFRControllerC15configureAPIKey6apiKeyySS_tF",
+            "moduleName": "MFRFramework",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillDisappear",
+            "printedName": "viewWillDisappear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MFRFramework@objc(cs)MFRController(im)viewWillDisappear:",
+            "mangledName": "$s12MFRFramework13MFRControllerC17viewWillDisappearyySbF",
+            "moduleName": "MFRFramework",
+            "overriding": true,
+            "objc_name": "viewWillDisappear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "captureOutput",
+            "printedName": "captureOutput(_:didOutput:from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureOutput",
+                "printedName": "AVFoundation.AVCaptureOutput",
+                "usr": "c:objc(cs)AVCaptureOutput"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMSampleBuffer",
+                "printedName": "CoreMedia.CMSampleBuffer",
+                "usr": "c:@T@CMSampleBufferRef"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureConnection",
+                "printedName": "AVFoundation.AVCaptureConnection",
+                "usr": "c:objc(cs)AVCaptureConnection"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MFRFramework@objc(cs)MFRController(im)captureOutput:didOutputSampleBuffer:fromConnection:",
+            "mangledName": "$s12MFRFramework13MFRControllerC13captureOutput_03didD04fromySo09AVCaptureD0C_So17CMSampleBufferRefaSo0G10ConnectionCtF",
+            "moduleName": "MFRFramework",
+            "objc_name": "captureOutput:didOutputSampleBuffer:fromConnection:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MFRController",
+                "printedName": "MFRFramework.MFRController",
+                "usr": "c:@M@MFRFramework@objc(cs)MFRController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MFRFramework@objc(cs)MFRController(im)initWithNibName:bundle:",
+            "mangledName": "$s12MFRFramework13MFRControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "MFRFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MFRFramework.MFRController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MFRController",
+                    "printedName": "MFRFramework.MFRController",
+                    "usr": "c:@M@MFRFramework@objc(cs)MFRController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MFRFramework@objc(cs)MFRController(im)initWithCoder:",
+            "mangledName": "$s12MFRFramework13MFRControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "MFRFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MFRFramework@objc(cs)MFRController",
+        "mangledName": "$s12MFRFramework13MFRControllerC",
+        "moduleName": "MFRFramework",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/mani\/Desktop\/ManiApps\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
+      "kind": "Array",
+      "offset": 591,
+      "length": 29,
+      "value": "[\"DubaiPolice999\", \"Mani999\"]"
+    },
+    {
+      "filePath": "\/Users\/mani\/Desktop\/ManiApps\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
+      "kind": "StringLiteral",
+      "offset": 645,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mani\/Desktop\/ManiApps\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 687,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mani\/Desktop\/ManiApps\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
+      "kind": "FloatLiteral",
+      "offset": 805,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/mani\/Desktop\/ManiApps\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
+      "kind": "FloatLiteral",
+      "offset": 852,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/mani\/Desktop\/ManiApps\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1320,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mani\/Desktop\/ManiApps\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1355,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mani\/Desktop\/ManiApps\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1398,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mani\/Desktop\/ManiApps\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1486,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}

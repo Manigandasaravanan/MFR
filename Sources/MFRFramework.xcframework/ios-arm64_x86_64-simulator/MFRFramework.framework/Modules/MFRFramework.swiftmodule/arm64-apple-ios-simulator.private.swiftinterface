@@ -1,0 +1,55 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target arm64-apple-ios18.1-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MFRFramework
+import AVFoundation
+@_exported import MFRFramework
+import Swift
+import UIKit
+import Vision
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum ExpressionType {
+  case smile
+  case blink
+  case zoomIn
+  case zoomOut
+  case leftTurn
+  case rightTurn
+  case upTurn
+  case downTurn
+  case none
+  public static func == (a: MFRFramework.ExpressionType, b: MFRFramework.ExpressionType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum LivenessDetectionResult {
+  case success
+  case failed
+  case spoofingDetected
+  case timeOut
+  case none
+  public static func == (a: MFRFramework.LivenessDetectionResult, b: MFRFramework.LivenessDetectionResult) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class MFRController : UIKit.UIViewController, AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate {
+  @_Concurrency.MainActor @preconcurrency public var apiKey: Swift.String
+  @_Concurrency.MainActor @preconcurrency public var onLivenessDetection: ((MFRFramework.LivenessDetectionResult) -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency public var excludedExpressions: [MFRFramework.ExpressionType]
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency public func configureAPIKey(apiKey: Swift.String)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension MFRFramework.ExpressionType : Swift.Equatable {}
+extension MFRFramework.ExpressionType : Swift.Hashable {}
+extension MFRFramework.LivenessDetectionResult : Swift.Equatable {}
+extension MFRFramework.LivenessDetectionResult : Swift.Hashable {}
