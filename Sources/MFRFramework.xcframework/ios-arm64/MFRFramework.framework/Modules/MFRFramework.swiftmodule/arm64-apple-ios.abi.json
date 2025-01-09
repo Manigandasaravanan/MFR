@@ -1696,7 +1696,14 @@
     {
       "filePath": "\/Users\/mani\/Desktop\/ManiApps\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
       "kind": "BooleanLiteral",
-      "offset": 25418,
+      "offset": 2086,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mani\/Desktop\/ManiApps\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 24008,
       "length": 4,
       "value": "true"
     }
