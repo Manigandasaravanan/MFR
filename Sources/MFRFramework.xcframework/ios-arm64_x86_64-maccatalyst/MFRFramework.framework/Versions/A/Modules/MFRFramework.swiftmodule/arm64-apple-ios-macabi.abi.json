@@ -1294,6 +1294,35 @@
             ]
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(apiKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MFRController",
+                "printedName": "MFRFramework.MFRController",
+                "usr": "c:@M@MFRFramework@objc(cs)MFRController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12MFRFramework13MFRControllerC6apiKeyACSS_tcfc",
+            "mangledName": "$s12MFRFramework13MFRControllerC6apiKeyACSS_tcfc",
+            "moduleName": "MFRFramework",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "viewDidLoad",
             "printedName": "viewDidLoad()",
@@ -1542,48 +1571,6 @@
               "Override"
             ],
             "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(coder:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "MFRFramework.MFRController?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MFRController",
-                    "printedName": "MFRFramework.MFRController",
-                    "usr": "c:@M@MFRFramework@objc(cs)MFRController"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "NSCoder",
-                "printedName": "Foundation.NSCoder",
-                "usr": "c:objc(cs)NSCoder"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@MFRFramework@objc(cs)MFRController(im)initWithCoder:",
-            "mangledName": "$s12MFRFramework13MFRControllerC5coderACSgSo7NSCoderC_tcfc",
-            "moduleName": "MFRFramework",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "initWithCoder:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "Required"
-            ],
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
@@ -1597,7 +1584,7 @@
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)UIViewController",
-        "inheritsConvenienceInitializers": true,
+        "hasMissingDesignatedInitializers": true,
         "superclassNames": [
           "UIKit.UIViewController",
           "UIKit.UIResponder",
@@ -1691,90 +1678,90 @@
       "filePath": "\/Users\/manigandasaravanan\/Desktop\/Development\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
       "kind": "StringLiteral",
       "offset": 601,
-      "length": 9,
-      "value": "\"Mani999\""
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/manigandasaravanan\/Desktop\/Development\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
       "kind": "BooleanLiteral",
-      "offset": 650,
+      "offset": 643,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/manigandasaravanan\/Desktop\/Development\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
       "kind": "BooleanLiteral",
-      "offset": 826,
+      "offset": 819,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/manigandasaravanan\/Desktop\/Development\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
       "kind": "BooleanLiteral",
-      "offset": 868,
+      "offset": 861,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/manigandasaravanan\/Desktop\/Development\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
       "kind": "FloatLiteral",
-      "offset": 921,
+      "offset": 914,
       "length": 4,
       "value": "0.05"
     },
     {
       "filePath": "\/Users\/manigandasaravanan\/Desktop\/Development\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1011,
+      "offset": 1004,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/manigandasaravanan\/Desktop\/Development\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1060,
+      "offset": 1053,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/manigandasaravanan\/Desktop\/Development\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1296,
+      "offset": 1289,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/manigandasaravanan\/Desktop\/Development\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
       "kind": "FloatLiteral",
-      "offset": 1813,
+      "offset": 1806,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/manigandasaravanan\/Desktop\/Development\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1859,
+      "offset": 1852,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/manigandasaravanan\/Desktop\/Development\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1908,
+      "offset": 1901,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/manigandasaravanan\/Desktop\/Development\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1951,
+      "offset": 1944,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/manigandasaravanan\/Desktop\/Development\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1986,
+      "offset": 1979,
       "length": 2,
       "value": "60"
     }
