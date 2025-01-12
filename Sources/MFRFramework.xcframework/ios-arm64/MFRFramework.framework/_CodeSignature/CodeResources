@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/MFRFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		V9P4XdZTE1LKE9Deb2UjNqchinc=
+		akn+erqo4azMXq8rZRqTM5GWh9w=
 		</data>
 		<key>Modules/MFRFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/MFRFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		YO+TVCQDhBxOlerE1U+3eQv3S3c=
+		ZrSA3adwpK9llzLcXdCyXtqZ7wg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -50,7 +50,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Lvoxm1b4GbLKZI/jWHgVgPuGwLDoCWEHwt9/eDRyFVs=
+			YiZCJzjQUSLXzwHKHmcBIja0VgLu5xlliLyrwbht5X8=
 			</data>
 		</dict>
 		<key>Modules/MFRFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -78,7 +78,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			S1qyBPty9csYesBO5GBOu5zZTec4FX1rrYYMkC6ZjKM=
+			XWkbdnQv7Scs0gYmClo73k76mtv3aSmSaHqqA8CNNes=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
