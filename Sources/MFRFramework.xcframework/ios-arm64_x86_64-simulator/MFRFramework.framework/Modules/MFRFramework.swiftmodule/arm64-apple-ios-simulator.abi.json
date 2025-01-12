@@ -1294,6 +1294,94 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "timeOutSeconds",
+            "printedName": "timeOutSeconds",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MFRFramework13MFRControllerC14timeOutSecondsSivp",
+            "mangledName": "$s12MFRFramework13MFRControllerC14timeOutSecondsSivp",
+            "moduleName": "MFRFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MFRFramework13MFRControllerC14timeOutSecondsSivg",
+                "mangledName": "$s12MFRFramework13MFRControllerC14timeOutSecondsSivg",
+                "moduleName": "MFRFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MFRFramework13MFRControllerC14timeOutSecondsSivs",
+                "mangledName": "$s12MFRFramework13MFRControllerC14timeOutSecondsSivs",
+                "moduleName": "MFRFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MFRFramework13MFRControllerC14timeOutSecondsSivM",
+                "mangledName": "$s12MFRFramework13MFRControllerC14timeOutSecondsSivM",
+                "moduleName": "MFRFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "viewDidLoad",
             "printedName": "viewDidLoad()",
@@ -1676,65 +1764,79 @@
     {
       "filePath": "\/Users\/manigandasaravanan\/Desktop\/Development\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
       "kind": "BooleanLiteral",
-      "offset": 873,
+      "offset": 826,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/manigandasaravanan\/Desktop\/Development\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
       "kind": "BooleanLiteral",
-      "offset": 915,
+      "offset": 868,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/manigandasaravanan\/Desktop\/Development\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
       "kind": "FloatLiteral",
-      "offset": 968,
+      "offset": 921,
       "length": 4,
       "value": "0.05"
     },
     {
       "filePath": "\/Users\/manigandasaravanan\/Desktop\/Development\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1058,
+      "offset": 1011,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/manigandasaravanan\/Desktop\/Development\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1107,
+      "offset": 1060,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/manigandasaravanan\/Desktop\/Development\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1343,
+      "offset": 1296,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/manigandasaravanan\/Desktop\/Development\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
       "kind": "FloatLiteral",
-      "offset": 1860,
+      "offset": 1813,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/manigandasaravanan\/Desktop\/Development\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1906,
+      "offset": 1859,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/manigandasaravanan\/Desktop\/Development\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1955,
+      "offset": 1908,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/manigandasaravanan\/Desktop\/Development\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1951,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/manigandasaravanan\/Desktop\/Development\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1985,
+      "length": 2,
+      "value": "60"
     }
   ]
 }

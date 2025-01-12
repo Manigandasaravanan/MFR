@@ -40,6 +40,7 @@ public enum LivenessDetectionResult {
   @_Concurrency.MainActor @preconcurrency public var onLivenessDetection: ((_ result: MFRFramework.LivenessDetectionResult, _ imageBase64: Swift.String?) -> Swift.Void)?
   @_Concurrency.MainActor @preconcurrency public var onCancel: (() -> Swift.Void)?
   @_Concurrency.MainActor @preconcurrency public var excludedExpressions: [MFRFramework.ExpressionType]
+  @_Concurrency.MainActor @preconcurrency public var timeOutSeconds: Swift.Int
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
