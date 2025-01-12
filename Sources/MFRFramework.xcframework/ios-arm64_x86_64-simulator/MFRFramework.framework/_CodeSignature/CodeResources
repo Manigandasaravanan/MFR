@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/MFRFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		nlVW64QB2eF+b1J816LM5mePUG0=
+		SAF4FwUuA7AT/rUY3PMA//M9kOw=
 		</data>
 		<key>Modules/MFRFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/MFRFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		tm8SeO/pl6J2IfH4VzFoL/yHsJQ=
+		jd2hvoLGYzZPb2lrDnp5jy4T0Gs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -98,7 +98,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			q1l/+sxm9m6zRgTRXB+SA0RY9Ig6VNR34ahzk5g8RBo=
+			iou/B9ymTi3vY1Ak0dQt2gws/FaJ87B4Eqa3trh7Mwc=
 			</data>
 		</dict>
 		<key>Modules/MFRFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3ST49FDz0fKaSUqaRJp9T10K71FMlmGsFMYryXXkqOc=
+			Dj9Lt/cgQyafXDRMLV8rERC9kCoJbW990hCPKjJFC5s=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
