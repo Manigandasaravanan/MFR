@@ -1417,34 +1417,6 @@
           },
           {
             "kind": "Function",
-            "name": "configureAPIKey",
-            "printedName": "configureAPIKey(apiKey:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12MFRFramework13MFRControllerC15configureAPIKey6apiKeyySS_tF",
-            "mangledName": "$s12MFRFramework13MFRControllerC15configureAPIKey6apiKeyySS_tF",
-            "moduleName": "MFRFramework",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "setTimeoutSeconds",
             "printedName": "setTimeoutSeconds(seconds:)",
             "children": [
