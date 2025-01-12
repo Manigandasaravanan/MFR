@@ -1294,94 +1294,6 @@
             ]
           },
           {
-            "kind": "Var",
-            "name": "timeOutSeconds",
-            "printedName": "timeOutSeconds",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12MFRFramework13MFRControllerC14timeOutSecondsSivp",
-            "mangledName": "$s12MFRFramework13MFRControllerC14timeOutSecondsSivp",
-            "moduleName": "MFRFramework",
-            "declAttributes": [
-              "HasInitialValue",
-              "Preconcurrency",
-              "Custom",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12MFRFramework13MFRControllerC14timeOutSecondsSivg",
-                "mangledName": "$s12MFRFramework13MFRControllerC14timeOutSecondsSivg",
-                "moduleName": "MFRFramework",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12MFRFramework13MFRControllerC14timeOutSecondsSivs",
-                "mangledName": "$s12MFRFramework13MFRControllerC14timeOutSecondsSivs",
-                "moduleName": "MFRFramework",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12MFRFramework13MFRControllerC14timeOutSecondsSivM",
-                "mangledName": "$s12MFRFramework13MFRControllerC14timeOutSecondsSivM",
-                "moduleName": "MFRFramework",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
             "kind": "Function",
             "name": "viewDidLoad",
             "printedName": "viewDidLoad()",
@@ -1494,6 +1406,34 @@
             "declKind": "Func",
             "usr": "s:12MFRFramework13MFRControllerC15configureAPIKey6apiKeyySS_tF",
             "mangledName": "$s12MFRFramework13MFRControllerC15configureAPIKey6apiKeyySS_tF",
+            "moduleName": "MFRFramework",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setTimeoutSeconds",
+            "printedName": "setTimeoutSeconds(seconds:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MFRFramework13MFRControllerC17setTimeoutSeconds7secondsySi_tF",
+            "mangledName": "$s12MFRFramework13MFRControllerC17setTimeoutSeconds7secondsySi_tF",
             "moduleName": "MFRFramework",
             "declAttributes": [
               "Preconcurrency",
@@ -1834,7 +1774,7 @@
     {
       "filePath": "\/Users\/manigandasaravanan\/Desktop\/Development\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1985,
+      "offset": 1986,
       "length": 2,
       "value": "60"
     }

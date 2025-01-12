@@ -40,11 +40,11 @@ public enum LivenessDetectionResult {
   @_Concurrency.MainActor @preconcurrency public var onLivenessDetection: ((_ result: MFRFramework.LivenessDetectionResult, _ imageBase64: Swift.String?) -> Swift.Void)?
   @_Concurrency.MainActor @preconcurrency public var onCancel: (() -> Swift.Void)?
   @_Concurrency.MainActor @preconcurrency public var excludedExpressions: [MFRFramework.ExpressionType]
-  @_Concurrency.MainActor @preconcurrency public var timeOutSeconds: Swift.Int
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency public func configureAPIKey(apiKey: Swift.String)
+  @_Concurrency.MainActor @preconcurrency public func setTimeoutSeconds(seconds: Swift.Int)
   @_Concurrency.MainActor @preconcurrency @objc public func session(_ session: ARKit.ARSession, didUpdate anchors: [ARKit.ARAnchor])
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
