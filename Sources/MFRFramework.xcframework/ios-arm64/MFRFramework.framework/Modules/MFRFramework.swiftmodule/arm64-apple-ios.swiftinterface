@@ -50,9 +50,10 @@ public enum LivenessDetectionResult {
   @_Concurrency.MainActor @preconcurrency @objc public func session(_ session: ARKit.ARSession, didUpdate anchors: [ARKit.ARAnchor])
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class MFRScanner : UIKit.UIViewController, ARKit.ARSessionDelegate {
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class MFRScanner : UIKit.UIViewController, ARKit.ARSessionDelegate, ARKit.ARSCNViewDelegate {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc public func renderer(_ renderer: any SceneKit.SCNSceneRenderer, didAdd node: SceneKit.SCNNode, for anchor: ARKit.ARAnchor)
   @_Concurrency.MainActor @preconcurrency @objc public func session(_ session: ARKit.ARSession, didUpdate frame: ARKit.ARFrame)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)

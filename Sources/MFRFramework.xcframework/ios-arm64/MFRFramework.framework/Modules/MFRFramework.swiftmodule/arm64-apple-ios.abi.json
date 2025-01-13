@@ -1733,6 +1733,48 @@
           },
           {
             "kind": "Function",
+            "name": "renderer",
+            "printedName": "renderer(_:didAdd:for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCNSceneRenderer",
+                "printedName": "any SceneKit.SCNSceneRenderer",
+                "usr": "c:objc(pl)SCNSceneRenderer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SCNNode",
+                "printedName": "SceneKit.SCNNode",
+                "usr": "c:objc(cs)SCNNode"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ARAnchor",
+                "printedName": "ARKit.ARAnchor",
+                "usr": "c:objc(cs)ARAnchor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MFRFramework@objc(cs)MFRScanner(im)renderer:didAddNode:forAnchor:",
+            "mangledName": "$s12MFRFramework10MFRScannerC8renderer_6didAdd3forySo16SCNSceneRenderer_p_So7SCNNodeCSo8ARAnchorCtF",
+            "moduleName": "MFRFramework",
+            "objc_name": "renderer:didAddNode:forAnchor:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "session",
             "printedName": "session(_:didUpdate:)",
             "children": [
@@ -2068,7 +2110,7 @@
     {
       "filePath": "\/Users\/mani\/Desktop\/ManiApps\/MFRFramework_Build\/MFRFramework\/MFRScanner.swift",
       "kind": "FloatLiteral",
-      "offset": 279,
+      "offset": 298,
       "length": 3,
       "value": "0.0"
     }
