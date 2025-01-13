@@ -1668,9 +1668,398 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "ScannerDetectionResult",
+        "printedName": "ScannerDetectionResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MFRFramework.ScannerDetectionResult.Type) -> MFRFramework.ScannerDetectionResult",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ScannerDetectionResult",
+                    "printedName": "MFRFramework.ScannerDetectionResult",
+                    "usr": "s:12MFRFramework22ScannerDetectionResultO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MFRFramework.ScannerDetectionResult.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScannerDetectionResult",
+                        "printedName": "MFRFramework.ScannerDetectionResult",
+                        "usr": "s:12MFRFramework22ScannerDetectionResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12MFRFramework22ScannerDetectionResultO7successyA2CmF",
+            "mangledName": "$s12MFRFramework22ScannerDetectionResultO7successyA2CmF",
+            "moduleName": "MFRFramework"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ScannerDetectionResult",
+                "printedName": "MFRFramework.ScannerDetectionResult",
+                "usr": "s:12MFRFramework22ScannerDetectionResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ScannerDetectionResult",
+                "printedName": "MFRFramework.ScannerDetectionResult",
+                "usr": "s:12MFRFramework22ScannerDetectionResultO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MFRFramework22ScannerDetectionResultO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s12MFRFramework22ScannerDetectionResultO2eeoiySbAC_ACtFZ",
+            "moduleName": "MFRFramework",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MFRFramework22ScannerDetectionResultO9hashValueSivp",
+            "mangledName": "$s12MFRFramework22ScannerDetectionResultO9hashValueSivp",
+            "moduleName": "MFRFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MFRFramework22ScannerDetectionResultO9hashValueSivg",
+                "mangledName": "$s12MFRFramework22ScannerDetectionResultO9hashValueSivg",
+                "moduleName": "MFRFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12MFRFramework22ScannerDetectionResultO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s12MFRFramework22ScannerDetectionResultO4hash4intoys6HasherVz_tF",
+            "moduleName": "MFRFramework",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12MFRFramework22ScannerDetectionResultO",
+        "mangledName": "$s12MFRFramework22ScannerDetectionResultO",
+        "moduleName": "MFRFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "MFRScanner",
         "printedName": "MFRScanner",
         "children": [
+          {
+            "kind": "Var",
+            "name": "onScannerDetection",
+            "printedName": "onScannerDetection",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((MFRFramework.ScannerDetectionResult, Swift.String?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MFRFramework.ScannerDetectionResult, Swift.String?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(MFRFramework.ScannerDetectionResult, Swift.String?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ScannerDetectionResult",
+                            "printedName": "MFRFramework.ScannerDetectionResult",
+                            "usr": "s:12MFRFramework22ScannerDetectionResultO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12MFRFramework10MFRScannerC18onScannerDetectionyAA0dE6ResultO_SSSgtcSgvp",
+            "mangledName": "$s12MFRFramework10MFRScannerC18onScannerDetectionyAA0dE6ResultO_SSSgtcSgvp",
+            "moduleName": "MFRFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((MFRFramework.ScannerDetectionResult, Swift.String?) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(MFRFramework.ScannerDetectionResult, Swift.String?) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(MFRFramework.ScannerDetectionResult, Swift.String?)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ScannerDetectionResult",
+                                "printedName": "MFRFramework.ScannerDetectionResult",
+                                "usr": "s:12MFRFramework22ScannerDetectionResultO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Swift.String?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "String",
+                                    "printedName": "Swift.String",
+                                    "usr": "s:SS"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MFRFramework10MFRScannerC18onScannerDetectionyAA0dE6ResultO_SSSgtcSgvg",
+                "mangledName": "$s12MFRFramework10MFRScannerC18onScannerDetectionyAA0dE6ResultO_SSSgtcSgvg",
+                "moduleName": "MFRFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((MFRFramework.ScannerDetectionResult, Swift.String?) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(MFRFramework.ScannerDetectionResult, Swift.String?) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(MFRFramework.ScannerDetectionResult, Swift.String?)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ScannerDetectionResult",
+                                "printedName": "MFRFramework.ScannerDetectionResult",
+                                "usr": "s:12MFRFramework22ScannerDetectionResultO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "Swift.String?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "String",
+                                    "printedName": "Swift.String",
+                                    "usr": "s:SS"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MFRFramework10MFRScannerC18onScannerDetectionyAA0dE6ResultO_SSSgtcSgvs",
+                "mangledName": "$s12MFRFramework10MFRScannerC18onScannerDetectionyAA0dE6ResultO_SSSgtcSgvs",
+                "moduleName": "MFRFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12MFRFramework10MFRScannerC18onScannerDetectionyAA0dE6ResultO_SSSgtcSgvM",
+                "mangledName": "$s12MFRFramework10MFRScannerC18onScannerDetectionyAA0dE6ResultO_SSSgtcSgvM",
+                "moduleName": "MFRFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
           {
             "kind": "Function",
             "name": "viewDidLoad",
@@ -2110,7 +2499,7 @@
     {
       "filePath": "\/Users\/mani\/Desktop\/ManiApps\/MFRFramework_Build\/MFRFramework\/MFRScanner.swift",
       "kind": "FloatLiteral",
-      "offset": 298,
+      "offset": 355,
       "length": 3,
       "value": "0.0"
     }
