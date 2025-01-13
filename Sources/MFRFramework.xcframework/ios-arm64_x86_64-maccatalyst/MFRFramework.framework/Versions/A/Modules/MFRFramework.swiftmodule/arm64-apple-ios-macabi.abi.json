@@ -2543,6 +2543,13 @@
       "offset": 396,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mani\/Desktop\/ManiApps\/MFRFramework_Build\/MFRFramework\/MFRScanner.swift",
+      "kind": "IntegerLiteral",
+      "offset": 428,
+      "length": 1,
+      "value": "0"
     }
   ]
 }
