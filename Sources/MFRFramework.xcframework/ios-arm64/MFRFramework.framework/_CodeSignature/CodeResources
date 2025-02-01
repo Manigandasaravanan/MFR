@@ -4,33 +4,57 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		e62fHkdURFEV+EDea3k10zPZawA=
+		</data>
+		<key>GlassesDetectionModel.mlmodelc/analytics/coremldata.bin</key>
+		<data>
+		aS8za5wf/WKIpQJKDY/fBY0ymAc=
+		</data>
+		<key>GlassesDetectionModel.mlmodelc/coremldata.bin</key>
+		<data>
+		IR5VgSgufYHiPYaOj0Xibt4S9Ps=
+		</data>
+		<key>GlassesDetectionModel.mlmodelc/metadata.json</key>
+		<data>
+		azE196+jk2RHu/yC5MJCrQqsI34=
+		</data>
+		<key>GlassesDetectionModel.mlmodelc/model0/coremldata.bin</key>
+		<data>
+		4cdrR0siFllAi4de0MMR47adbZc=
+		</data>
+		<key>GlassesDetectionModel.mlmodelc/model1/coremldata.bin</key>
+		<data>
+		SfB/e52RQTIs6ifI/n11zVYOfQk=
+		</data>
 		<key>Headers/MFRFramework.h</key>
 		<data>
 		rSlIhxlY2TMB8CI8fUtCd2yfcrM=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ETI8t4zwJmgTqfSVcduD5uhQmNs=
+		/lgmBUe1eRJyh21Gd7WA0jkLByY=
 		</data>
 		<key>Modules/MFRFramework.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		2ZbmZAC4WYhP5dMBZwxLJZCE9qo=
+		+rgQNSzZ/6hkpn3BS6T090FqqM4=
 		</data>
 		<key>Modules/MFRFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		1AJImghbtSFScO/+wOX2rgDj1l4=
+		v3Ol7yiaWkiNFr+IP48AJ/rgkkc=
 		</data>
 		<key>Modules/MFRFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		UObqS2OxqWmv6pfFxh30pgE/jH8=
+		UZCA0JHfoq8idoumkwsS/R2p23o=
 		</data>
 		<key>Modules/MFRFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		1AJImghbtSFScO/+wOX2rgDj1l4=
+		v3Ol7yiaWkiNFr+IP48AJ/rgkkc=
 		</data>
 		<key>Modules/MFRFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Fh3B1rtM9TQizhwAo0QRTsfnwOM=
+		mhQa0rapy9tLB19oJf0WT+Q/TFA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -39,6 +63,48 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+4Xb3MdfFQS04RRplJaQrGA3zxeXxGNSejMTkpB0EIY=
+			</data>
+		</dict>
+		<key>GlassesDetectionModel.mlmodelc/analytics/coremldata.bin</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Ulb0yUv/KTRvn2Y8mZpNUkOS8RPJF+D3Ov85VzKVaQA=
+			</data>
+		</dict>
+		<key>GlassesDetectionModel.mlmodelc/coremldata.bin</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cooxSfSIpKy8d6MxJQ6RXRoMJrja93N0JjwRT+HqQnQ=
+			</data>
+		</dict>
+		<key>GlassesDetectionModel.mlmodelc/metadata.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/MHDWb7AytZuoVPd1kY14kq48wmuurD7vvJytWFOesg=
+			</data>
+		</dict>
+		<key>GlassesDetectionModel.mlmodelc/model0/coremldata.bin</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rJbMEXiHIuu3n3dUmew2oe6acF075JT8km39V1HcfbU=
+			</data>
+		</dict>
+		<key>GlassesDetectionModel.mlmodelc/model1/coremldata.bin</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2+iiBwGAJqqy8TJk+0huWrYUoF+GRcXLpBsrg0cl0y8=
+			</data>
+		</dict>
 		<key>Headers/MFRFramework.h</key>
 		<dict>
 			<key>hash2</key>
@@ -50,35 +116,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z3OCdf8QuabxXX9ZiaghHriIKoEYNsLLC3fGsb5qFJA=
+			Y8rXrc3nBHAcGC4MqyrBJ4bqFPUch3dnQNqxcuQbptI=
 			</data>
 		</dict>
 		<key>Modules/MFRFramework.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xx0jXeI8keySz8c2CAtYLNXKV8R3cSqxRXOoRC+Q1fI=
+			DMXZVNdFZq8uKxwZbkFbg9xMx45d50M1A0Dc8aomSK8=
 			</data>
 		</dict>
 		<key>Modules/MFRFramework.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yjp0pyU8v4f4Hi23O2E/xc21eDKfUppGdpEKfPd6vYM=
+			PJC0La9wiP+QCaEpUHJFcKNac+7Khzpap7xHDvrmCXY=
 			</data>
 		</dict>
 		<key>Modules/MFRFramework.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xx0jXeI8keySz8c2CAtYLNXKV8R3cSqxRXOoRC+Q1fI=
+			DMXZVNdFZq8uKxwZbkFbg9xMx45d50M1A0Dc8aomSK8=
 			</data>
 		</dict>
 		<key>Modules/MFRFramework.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ETd63sSQEFievwuQSfTleiPJOEjUbvTMJVSsavsKgoY=
+			VZt44YOlyLel1R4s/0qU7vqTISbcvlvh855OQy2ffQ8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -4,53 +4,77 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		e62fHkdURFEV+EDea3k10zPZawA=
+		</data>
+		<key>GlassesDetectionModel.mlmodelc/analytics/coremldata.bin</key>
+		<data>
+		aS8za5wf/WKIpQJKDY/fBY0ymAc=
+		</data>
+		<key>GlassesDetectionModel.mlmodelc/coremldata.bin</key>
+		<data>
+		KmZML24HFRQkDOBahgtrMf3Rs4g=
+		</data>
+		<key>GlassesDetectionModel.mlmodelc/metadata.json</key>
+		<data>
+		azE196+jk2RHu/yC5MJCrQqsI34=
+		</data>
+		<key>GlassesDetectionModel.mlmodelc/model0/coremldata.bin</key>
+		<data>
+		4cdrR0siFllAi4de0MMR47adbZc=
+		</data>
+		<key>GlassesDetectionModel.mlmodelc/model1/coremldata.bin</key>
+		<data>
+		SfB/e52RQTIs6ifI/n11zVYOfQk=
+		</data>
 		<key>Headers/MFRFramework.h</key>
 		<data>
 		rSlIhxlY2TMB8CI8fUtCd2yfcrM=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+Ixq/C35m+4AmUcnMSGxXfE2Rew=
+		3QY+EVOJGtxVuT4lG+fOOnLXP0s=
 		</data>
 		<key>Modules/MFRFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		2ZbmZAC4WYhP5dMBZwxLJZCE9qo=
+		y9vVCnMTZH2RWXzKihJYFxrkZO0=
 		</data>
 		<key>Modules/MFRFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		xaLKM4vwyrGyHyvCVfRKrDZkSm0=
+		xnS1VSzo1Uco4VYVHn+4NFSVSoI=
 		</data>
 		<key>Modules/MFRFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		yW9EDZM+sBhUFnJQG9VAlnQZ26M=
+		O/Ob3A8mrRTo3jmR7QtMs+n+Gfw=
 		</data>
 		<key>Modules/MFRFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		xaLKM4vwyrGyHyvCVfRKrDZkSm0=
+		xnS1VSzo1Uco4VYVHn+4NFSVSoI=
 		</data>
 		<key>Modules/MFRFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Zm7UKdCvt5Z6dGEKhMxGtlaKMec=
+		HRUBXv6nnR5+yDgoA0CIsoiISoQ=
 		</data>
 		<key>Modules/MFRFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		2ZbmZAC4WYhP5dMBZwxLJZCE9qo=
+		y9vVCnMTZH2RWXzKihJYFxrkZO0=
 		</data>
 		<key>Modules/MFRFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		uOXzNGHIxfBYvNKTyg3EeNicnio=
+		0CchBN3OFi1u7312TNW0xLuNKEY=
 		</data>
 		<key>Modules/MFRFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		oHezGEP92oinrhuT/wj/OB8S2oU=
+		66fI4n5gHO1ZIGD2t0zFnXqR0D4=
 		</data>
 		<key>Modules/MFRFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		uOXzNGHIxfBYvNKTyg3EeNicnio=
+		0CchBN3OFi1u7312TNW0xLuNKEY=
 		</data>
 		<key>Modules/MFRFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		SNhgB0PSy5pLFUbBmjvUQMg5vK4=
+		sRKO9z/5JPvAkr/x8ivmqbsg8cQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -59,6 +83,48 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+4Xb3MdfFQS04RRplJaQrGA3zxeXxGNSejMTkpB0EIY=
+			</data>
+		</dict>
+		<key>GlassesDetectionModel.mlmodelc/analytics/coremldata.bin</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Ulb0yUv/KTRvn2Y8mZpNUkOS8RPJF+D3Ov85VzKVaQA=
+			</data>
+		</dict>
+		<key>GlassesDetectionModel.mlmodelc/coremldata.bin</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8DLFAo+/kZ31vAfBcBvo89Dt8kHaqABt3IneoPki1Qo=
+			</data>
+		</dict>
+		<key>GlassesDetectionModel.mlmodelc/metadata.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/MHDWb7AytZuoVPd1kY14kq48wmuurD7vvJytWFOesg=
+			</data>
+		</dict>
+		<key>GlassesDetectionModel.mlmodelc/model0/coremldata.bin</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rJbMEXiHIuu3n3dUmew2oe6acF075JT8km39V1HcfbU=
+			</data>
+		</dict>
+		<key>GlassesDetectionModel.mlmodelc/model1/coremldata.bin</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2+iiBwGAJqqy8TJk+0huWrYUoF+GRcXLpBsrg0cl0y8=
+			</data>
+		</dict>
 		<key>Headers/MFRFramework.h</key>
 		<dict>
 			<key>hash2</key>
@@ -70,70 +136,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z3OCdf8QuabxXX9ZiaghHriIKoEYNsLLC3fGsb5qFJA=
+			Q+2X7hrdlvFIAm7QO7SotTYk2cfvc1vnDHsip3jXI20=
 			</data>
 		</dict>
 		<key>Modules/MFRFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JfkC3mqQJyIcHWh1UKvEsUn92NAUiL7BJooGScCOWtk=
+			hPKE8STyRI9lEBAFwVwdF2lyCyQ8Ux33aRkj6YQCkZs=
 			</data>
 		</dict>
 		<key>Modules/MFRFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vRtarwBqUeRkmr+P3xiUrVmj6k2MK/FoWLbBxe+BKKc=
+			OnFb4uS0LIDaqiHaioR9ymQ5OilHvMoRw4PCx6MG89U=
 			</data>
 		</dict>
 		<key>Modules/MFRFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JfkC3mqQJyIcHWh1UKvEsUn92NAUiL7BJooGScCOWtk=
+			hPKE8STyRI9lEBAFwVwdF2lyCyQ8Ux33aRkj6YQCkZs=
 			</data>
 		</dict>
 		<key>Modules/MFRFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Da4wNncNqHeDDK/RVRTqUXduzy88/Mjcck8fnSCqCrA=
+			blumsL+97xhKVWe1F25u5x9yBcWuYq+6QTc9r9Hx37A=
 			</data>
 		</dict>
 		<key>Modules/MFRFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z3OCdf8QuabxXX9ZiaghHriIKoEYNsLLC3fGsb5qFJA=
+			Q+2X7hrdlvFIAm7QO7SotTYk2cfvc1vnDHsip3jXI20=
 			</data>
 		</dict>
 		<key>Modules/MFRFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GUyoUhTjWzOtV1kO38mUE07v5P2Ekykn3eweljKnCMA=
+			vbZPye6DHywrLKiUYhaDgFdBJS0h/LQWk9k5xGYXUug=
 			</data>
 		</dict>
 		<key>Modules/MFRFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j+FYfgB4WSYA28uOYKG1zj9k0F4iIxhWCzLH2vcf3vA=
+			dQHngYCb/Zi9b4WCHEKOF3Tm8ECjPCy53K+Fu1gYAHo=
 			</data>
 		</dict>
 		<key>Modules/MFRFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GUyoUhTjWzOtV1kO38mUE07v5P2Ekykn3eweljKnCMA=
+			vbZPye6DHywrLKiUYhaDgFdBJS0h/LQWk9k5xGYXUug=
 			</data>
 		</dict>
 		<key>Modules/MFRFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			V/VAloBHs4SlW9bhUBtJE91Ey1NNGfopl6zTe+jV8fE=
+			yy17oSnYobvE6P/7LpfA4Yr7cx7hiNm4ZNXf5q4vnbQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

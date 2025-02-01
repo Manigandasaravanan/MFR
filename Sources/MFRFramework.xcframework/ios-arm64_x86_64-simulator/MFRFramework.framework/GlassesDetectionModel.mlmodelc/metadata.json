@@ -1,0 +1,77 @@
+[
+  {
+    "metadataOutputVersion" : "3.0",
+    "outputSchema" : [
+      {
+        "isOptional" : "0",
+        "formattedType" : "String",
+        "type" : "String",
+        "name" : "target",
+        "shortDescription" : ""
+      },
+      {
+        "isOptional" : "0",
+        "keyType" : "String",
+        "formattedType" : "Dictionary (String → Double)",
+        "type" : "Dictionary",
+        "name" : "targetProbability",
+        "shortDescription" : ""
+      }
+    ],
+    "modelParameters" : [
+
+    ],
+    "author" : "Maniganda Saravanan",
+    "specificationVersion" : 3,
+    "isUpdatable" : "0",
+    "stateSchema" : [
+
+    ],
+    "availability" : {
+      "macOS" : "10.14",
+      "tvOS" : "12.0",
+      "visionOS" : "1.0",
+      "watchOS" : "unavailable",
+      "iOS" : "12.0",
+      "macCatalyst" : "12.0"
+    },
+    "modelType" : {
+      "name" : "MLModelType_imageClassifier",
+      "structure" : [
+        {
+          "name" : "MLModelType_visionFeaturePrint"
+        },
+        {
+          "name" : "MLModelType_glmClassifier"
+        }
+      ]
+    },
+    "inputSchema" : [
+      {
+        "height" : "299",
+        "colorspace" : "BGR",
+        "isOptional" : "0",
+        "width" : "299",
+        "isColor" : "1",
+        "formattedType" : "Image (Color 299 × 299)",
+        "hasSizeFlexibility" : "0",
+        "type" : "Image",
+        "shortDescription" : "",
+        "name" : "image"
+      }
+    ],
+    "classLabels" : [
+      "glasses",
+      "no_glasses",
+      "with_mask"
+    ],
+    "generatedClassName" : "GlassesDetectionModel",
+    "userDefinedMetadata" : {
+      "com.apple.createml.app.tag" : "150.3",
+      "com.apple.createml.version" : "15.3.0",
+      "com.apple.coreml.model.preview.type" : "imageClassifier",
+      "com.apple.createml.app.version" : "6.1"
+    },
+    "method" : "predict"
+  }
+]
