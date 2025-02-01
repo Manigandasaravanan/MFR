@@ -2954,14 +2954,14 @@
     {
       "filePath": "\/Users\/manigandasaravanan\/Desktop\/Development\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
       "kind": "BooleanLiteral",
-      "offset": 40661,
+      "offset": 40765,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/manigandasaravanan\/Desktop\/Development\/MFRFramework_Build\/MFRFramework\/MFRController.swift",
       "kind": "FloatLiteral",
-      "offset": 41061,
+      "offset": 41165,
       "length": 3,
       "value": "0.2"
     },

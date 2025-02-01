@@ -14,7 +14,7 @@
 		</data>
 		<key>GlassesDetectionModel.mlmodelc/coremldata.bin</key>
 		<data>
-		okEzn5YG16mgZnZcXdWHMpgI/kI=
+		KmZML24HFRQkDOBahgtrMf3Rs4g=
 		</data>
 		<key>GlassesDetectionModel.mlmodelc/metadata.json</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/MFRFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		MOQ7IYdxklozhg1Q710Pq09xnzY=
+		wCK3Vdi/dSW8QLiEIl4lu2sppYg=
 		</data>
 		<key>Modules/MFRFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/MFRFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		MOQ7IYdxklozhg1Q710Pq09xnzY=
+		wCK3Vdi/dSW8QLiEIl4lu2sppYg=
 		</data>
 		<key>Modules/MFRFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -101,7 +101,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qo7PpMkAotG/R/IgRYB87CLFw2j5A36zMiVq9KpH+sQ=
+			8DLFAo+/kZ31vAfBcBvo89Dt8kHaqABt3IneoPki1Qo=
 			</data>
 		</dict>
 		<key>GlassesDetectionModel.mlmodelc/metadata.json</key>
@@ -136,7 +136,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2EqLrRHrRTxDEsn6O6kwQcJ+2+nyMD0WxMBi29JALNM=
+			QSLNV1iPzOhmQ7lWiC0M9gHJJOnIj8fgE62Ojw9xNHk=
 			</data>
 		</dict>
 		<key>Modules/MFRFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -171,7 +171,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2EqLrRHrRTxDEsn6O6kwQcJ+2+nyMD0WxMBi29JALNM=
+			QSLNV1iPzOhmQ7lWiC0M9gHJJOnIj8fgE62Ojw9xNHk=
 			</data>
 		</dict>
 		<key>Modules/MFRFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
