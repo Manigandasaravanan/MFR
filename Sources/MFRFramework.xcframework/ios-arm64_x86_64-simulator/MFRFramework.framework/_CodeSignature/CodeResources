@@ -14,11 +14,11 @@
 		</data>
 		<key>GlassesDetectionModel.mlmodelc/coremldata.bin</key>
 		<data>
-		IR5VgSgufYHiPYaOj0Xibt4S9Ps=
+		okEzn5YG16mgZnZcXdWHMpgI/kI=
 		</data>
 		<key>GlassesDetectionModel.mlmodelc/metadata.json</key>
 		<data>
-		LUWI6vbCkdIhr++1ZFgVTKkdxtA=
+		l72qVoBZMG3q+974hOzcv78QmdU=
 		</data>
 		<key>GlassesDetectionModel.mlmodelc/model0/coremldata.bin</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/MFRFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		wCK3Vdi/dSW8QLiEIl4lu2sppYg=
+		sh7Q0jqqQwXiYBx7KWl0h0iK0UU=
 		</data>
 		<key>Modules/MFRFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Modules/MFRFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		l0S22M4ho2LMbzfUURppFSSiptw=
+		l+o0OM+/Q4T1NzA0JZ/Ax7nnSuw=
 		</data>
 		<key>Modules/MFRFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		wCK3Vdi/dSW8QLiEIl4lu2sppYg=
+		sh7Q0jqqQwXiYBx7KWl0h0iK0UU=
 		</data>
 		<key>Modules/MFRFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Modules/MFRFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zV68sqjtKKRV4b7VGW5iUOLZYIk=
+		UVAYzJ+eUGV/SHv/DbplBMbzcEw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -101,14 +101,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cooxSfSIpKy8d6MxJQ6RXRoMJrja93N0JjwRT+HqQnQ=
+			Qo7PpMkAotG/R/IgRYB87CLFw2j5A36zMiVq9KpH+sQ=
 			</data>
 		</dict>
 		<key>GlassesDetectionModel.mlmodelc/metadata.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IUGmFOjQpNHllFq4AJNfJ+wviO4nupqaqKyfdtCkpxc=
+			VdVHwFz0dzOURQ2/shwt4Bc5qQP5YHDch/BLh8MlfIk=
 			</data>
 		</dict>
 		<key>GlassesDetectionModel.mlmodelc/model0/coremldata.bin</key>
@@ -136,7 +136,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QSLNV1iPzOhmQ7lWiC0M9gHJJOnIj8fgE62Ojw9xNHk=
+			TSLdrXSVe4SChDXTnowVPEiLOSrVCLfnLyfkWDYQEg4=
 			</data>
 		</dict>
 		<key>Modules/MFRFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -164,14 +164,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bdw/cQW2t2U1wdx2YXTFEdhjLr5V0Y0dLsBsqit6PHg=
+			N79BYyuu6rm3iqNqI2jo5aCNokqoY9V+GeWwL3ofpQ8=
 			</data>
 		</dict>
 		<key>Modules/MFRFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QSLNV1iPzOhmQ7lWiC0M9gHJJOnIj8fgE62Ojw9xNHk=
+			TSLdrXSVe4SChDXTnowVPEiLOSrVCLfnLyfkWDYQEg4=
 			</data>
 		</dict>
 		<key>Modules/MFRFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -199,7 +199,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3PQO7pQQk5rkzE82hoveLyYv8yDbPhbdIN6SXKDE4Wo=
+			hYALbyz+7JiL6wvThMbmHWktkMs7RQZhQFlbK8Yr8/Y=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

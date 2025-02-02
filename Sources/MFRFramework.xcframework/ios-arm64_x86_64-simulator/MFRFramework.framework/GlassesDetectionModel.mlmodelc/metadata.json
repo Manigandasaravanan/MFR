@@ -66,8 +66,8 @@
     ],
     "generatedClassName" : "GlassesDetectionModel",
     "userDefinedMetadata" : {
-      "com.apple.createml.version" : "15.3.0",
       "com.apple.createml.app.tag" : "150.3",
+      "com.apple.createml.version" : "15.3.0",
       "com.apple.coreml.model.preview.type" : "imageClassifier",
       "com.apple.createml.app.version" : "6.1"
     },
