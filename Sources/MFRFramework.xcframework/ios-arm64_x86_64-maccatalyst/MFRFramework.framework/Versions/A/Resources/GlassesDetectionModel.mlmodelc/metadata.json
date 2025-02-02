@@ -62,8 +62,7 @@
     ],
     "classLabels" : [
       "glasses",
-      "no_glasses",
-      "with_mask"
+      "no_glasses"
     ],
     "generatedClassName" : "GlassesDetectionModel",
     "userDefinedMetadata" : {

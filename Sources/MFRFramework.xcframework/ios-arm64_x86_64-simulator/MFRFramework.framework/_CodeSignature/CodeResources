@@ -10,15 +10,15 @@
 		</data>
 		<key>GlassesDetectionModel.mlmodelc/analytics/coremldata.bin</key>
 		<data>
-		aS8za5wf/WKIpQJKDY/fBY0ymAc=
+		Fof/JwJZCcH5gL98JR6QlN7vpQw=
 		</data>
 		<key>GlassesDetectionModel.mlmodelc/coremldata.bin</key>
 		<data>
-		KmZML24HFRQkDOBahgtrMf3Rs4g=
+		IR5VgSgufYHiPYaOj0Xibt4S9Ps=
 		</data>
 		<key>GlassesDetectionModel.mlmodelc/metadata.json</key>
 		<data>
-		azE196+jk2RHu/yC5MJCrQqsI34=
+		LUWI6vbCkdIhr++1ZFgVTKkdxtA=
 		</data>
 		<key>GlassesDetectionModel.mlmodelc/model0/coremldata.bin</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>GlassesDetectionModel.mlmodelc/model1/coremldata.bin</key>
 		<data>
-		SfB/e52RQTIs6ifI/n11zVYOfQk=
+		uWNAUvQs0RxIONv9QvRrxl78ZoY=
 		</data>
 		<key>Headers/MFRFramework.h</key>
 		<data>
@@ -94,21 +94,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ulb0yUv/KTRvn2Y8mZpNUkOS8RPJF+D3Ov85VzKVaQA=
+			12nvi+xUM8rJBb4pBq5xNgnVDXymujamI90wedc28LA=
 			</data>
 		</dict>
 		<key>GlassesDetectionModel.mlmodelc/coremldata.bin</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8DLFAo+/kZ31vAfBcBvo89Dt8kHaqABt3IneoPki1Qo=
+			cooxSfSIpKy8d6MxJQ6RXRoMJrja93N0JjwRT+HqQnQ=
 			</data>
 		</dict>
 		<key>GlassesDetectionModel.mlmodelc/metadata.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/MHDWb7AytZuoVPd1kY14kq48wmuurD7vvJytWFOesg=
+			IUGmFOjQpNHllFq4AJNfJ+wviO4nupqaqKyfdtCkpxc=
 			</data>
 		</dict>
 		<key>GlassesDetectionModel.mlmodelc/model0/coremldata.bin</key>
@@ -122,7 +122,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2+iiBwGAJqqy8TJk+0huWrYUoF+GRcXLpBsrg0cl0y8=
+			/LfxioZHgMAsf96FBXycSe44i6lsaVySmU3tGpSp42o=
 			</data>
 		</dict>
 		<key>Headers/MFRFramework.h</key>
